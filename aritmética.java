@@ -17,6 +17,7 @@ public class aritmética {
     public static void main(String[] args) {
         int suma=suma(5,1);
         int resta=resta(6,2);
+        int division=division(5,4);
     }
     public static int suma(int x, int y)
     {   int res=x+y;
@@ -24,6 +25,11 @@ public class aritmética {
     }
     public static int resta(int x, int y)
     {   int res=x-y;
+        return res;
+    }
+    
+    public static int division(int x, int y){
+        int res=x/y;
         return res;
     }
 }
