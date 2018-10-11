@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio2;
+ 
 
 /**
  *
@@ -18,6 +18,7 @@ public class aritmética {
         int suma=suma(5,1);
         int resta=resta(6,2);
         int division=division(5,4);
+        int multiplicacion=multiplicacion(6,8);
     }
     public static int suma(int x, int y)
     {   int res=x+y;
@@ -31,5 +32,9 @@ public class aritmética {
     public static int division(int x, int y){
         int res=x/y;
         return res;
+    }
+    public static int multiplicacion(int x, int y){
+        int res= x*y;
+        return res; 
     }
 }
